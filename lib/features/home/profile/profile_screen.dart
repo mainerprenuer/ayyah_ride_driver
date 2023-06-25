@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/country_selection_textfield_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/flat_button_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/square_textfield_widget.dart';
-
+import 'package:ayyah_ride_driver/common/my_colors.dart';
+import 'package:ayyah_ride_driver/widgets/country_selection_textfield_widget.dart';
+import 'package:ayyah_ride_driver/widgets/flat_button_widget.dart';
+import 'package:ayyah_ride_driver/widgets/square_textfield_widget.dart';
 
 class ProfileScreen extends StatelessWidget {
   static const String routeName = "profile";

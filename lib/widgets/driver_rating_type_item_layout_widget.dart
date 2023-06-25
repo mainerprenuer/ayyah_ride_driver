@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/driver_container_widget.dart';
-
-
+import 'package:ayyah_ride_driver/widgets/driver_container_widget.dart';
 
 class DriverRatingTypeItemLayoutWidget extends StatelessWidget {
   final String ratingCategoryTxt;

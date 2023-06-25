@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-
+import 'package:ayyah_ride_driver/common/my_colors.dart';
 
 class BorderButtonWidget extends StatelessWidget {
   final String text;
@@ -33,9 +32,9 @@ class BorderButtonWidget extends StatelessWidget {
           child: Text(
             text,
             style: Theme.of(context).textTheme.caption.copyWith(
-              fontSize: 16,
-              color: kPrimaryColor,
-            ),
+                  fontSize: 16,
+                  color: kPrimaryColor,
+                ),
           ),
         ),
       ),

@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/my_document_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/viit_appbar.dart';
-
+import 'package:ayyah_ride_driver/common/my_colors.dart';
+import 'package:ayyah_ride_driver/widgets/my_document_widget.dart';
+import 'package:ayyah_ride_driver/widgets/viit_appbar.dart';
 
 class MyDocunmentScreen extends StatelessWidget {
   static const String routeName = "mydocunmentscreen";
@@ -89,105 +88,102 @@ class _MyDocunmentState extends State<MyDocunment> {
                 height: 15,
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 20,right: 20),
-                child: Column(
-                  children: <Widget>[
-                    MyDocumentWidget(
-                      docunmentTyperTxt:"Driving license (Front)",
-                      docunmentImage: "assets/female_avtar.png",
-                    ),
-                    Divider(
-                      color: kGrey,
-                    ),
-                    SizedBox(
-                      height: 5,
-                    ),
-                    MyDocumentWidget(
-                      docunmentTyperTxt:"Driving license (Back)",
-                      docunmentImage: "assets/female_avtar.png",
-                    ),
-                    Divider(
-                      color: kGrey,
-                    ),
-                    SizedBox(
-                      height: 5,
-                    ),
-                    MyDocumentWidget(
-                      docunmentTyperTxt:"RC Professionnelle (Front)",
-                      docunmentImage: "assets/female_avtar.png",
-                    ),
-                    Divider(
-                      color: kGrey,
-                    ),
-                    SizedBox(
-                      height: 5,
-                    ),
-                    MyDocumentWidget(
-                      docunmentTyperTxt:"RC Professionnelle (Back)",
-                      docunmentImage: "assets/female_avtar.png",
-                    ),
-                    Divider(
-                      color: kGrey,
-                    ),
-                    SizedBox(
-                      height: 5,
-                    ),
-                    MyDocumentWidget(
-                      docunmentTyperTxt:"Carte Professionnelle VTC\n(Front)",
-                      docunmentImage: "assets/female_avtar.png",
-                    ),
-                    Divider(
-                      color: kGrey,
-                    ),
-                    SizedBox(
-                      height: 5,
-                    ),
-                    MyDocumentWidget(
-                      docunmentTyperTxt:"Carte Professionnelle VTC\n(Back)",
-                      docunmentImage: "assets/female_avtar.png",
-                    ),
-                    Divider(
-                      color: kGrey,
-                    ),
-                    SizedBox(
-                      height: 5,
-                    ),
-                    MyDocumentWidget(
-                      docunmentTyperTxt:"Extrait KBIS",
-                      docunmentImage: "assets/female_avtar.png",
-                    ),
-                    Divider(
-                      color: kGrey,
-                    ),
-                    SizedBox(
-                      height: 5,
-                    ),
-                    MyDocumentWidget(
-                      docunmentTyperTxt:"Attestation d’assurance\nd’exploitation",
-                      docunmentImage: "assets/female_avtar.png",
-                    ),
-                    Divider(
-                      color: kGrey,
-                    ),
-                    SizedBox(
-                      height: 5,
-                    ),
-                    MyDocumentWidget(
-                      docunmentTyperTxt:"Inscription au registre VTC",
-                      docunmentImage: "assets/female_avtar.png",
-                    ),
-                    Divider(
-                      color: kGrey,
-                    ),
-                    SizedBox(
-                      height: 5,
-                    ),
-                  ],
-                )
-
-              ),
-
-
+                  padding: const EdgeInsets.only(left: 20, right: 20),
+                  child: Column(
+                    children: <Widget>[
+                      MyDocumentWidget(
+                        docunmentTyperTxt: "Driving license (Front)",
+                        docunmentImage: "assets/female_avtar.png",
+                      ),
+                      Divider(
+                        color: kGrey,
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      MyDocumentWidget(
+                        docunmentTyperTxt: "Driving license (Back)",
+                        docunmentImage: "assets/female_avtar.png",
+                      ),
+                      Divider(
+                        color: kGrey,
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      MyDocumentWidget(
+                        docunmentTyperTxt: "RC Professionnelle (Front)",
+                        docunmentImage: "assets/female_avtar.png",
+                      ),
+                      Divider(
+                        color: kGrey,
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      MyDocumentWidget(
+                        docunmentTyperTxt: "RC Professionnelle (Back)",
+                        docunmentImage: "assets/female_avtar.png",
+                      ),
+                      Divider(
+                        color: kGrey,
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      MyDocumentWidget(
+                        docunmentTyperTxt: "Carte Professionnelle VTC\n(Front)",
+                        docunmentImage: "assets/female_avtar.png",
+                      ),
+                      Divider(
+                        color: kGrey,
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      MyDocumentWidget(
+                        docunmentTyperTxt: "Carte Professionnelle VTC\n(Back)",
+                        docunmentImage: "assets/female_avtar.png",
+                      ),
+                      Divider(
+                        color: kGrey,
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      MyDocumentWidget(
+                        docunmentTyperTxt: "Extrait KBIS",
+                        docunmentImage: "assets/female_avtar.png",
+                      ),
+                      Divider(
+                        color: kGrey,
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      MyDocumentWidget(
+                        docunmentTyperTxt:
+                            "Attestation d’assurance\nd’exploitation",
+                        docunmentImage: "assets/female_avtar.png",
+                      ),
+                      Divider(
+                        color: kGrey,
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      MyDocumentWidget(
+                        docunmentTyperTxt: "Inscription au registre VTC",
+                        docunmentImage: "assets/female_avtar.png",
+                      ),
+                      Divider(
+                        color: kGrey,
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                    ],
+                  )),
             ],
           ),
         ),

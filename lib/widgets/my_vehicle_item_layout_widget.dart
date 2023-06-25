@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/square_outline_button_widget.dart';
-
+import 'package:ayyah_ride_driver/widgets/square_outline_button_widget.dart';
 
 class MyVehicleItemLayout extends StatelessWidget {
-  final   radiovalue;
-  final   isSelected;
+  final radiovalue;
+  final isSelected;
   final Function myOnTap;
   MyVehicleItemLayout({
     Key key,
     @required this.radiovalue,
     @required this.isSelected,
     @required this.myOnTap,
-})  : super(key: key);
-   @override
+  }) : super(key: key);
+  @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -70,14 +69,15 @@ class MyVehicleItemLayout extends StatelessWidget {
                 ),
               ],
             ),
-            Transform.scale(scale: 1.4,
-              child:Radio(
+            Transform.scale(
+              scale: 1.4,
+              child: Radio(
                 activeColor: Color(0XFF275787),
                 value: radiovalue,
                 groupValue: isSelected,
                 onChanged: myOnTap,
               ),
-             )
+            )
           ],
         ),
         Row(
@@ -97,7 +97,6 @@ class MyVehicleItemLayout extends StatelessWidget {
               btnTxt: "Edit",
               btnIcon: Icons.edit,
               borderColor: Color(0XFF275787),
-
               btnOnTap: () {},
             ),
             SizedBox(
@@ -107,8 +106,8 @@ class MyVehicleItemLayout extends StatelessWidget {
               iconShow: true,
               btnTxt: "Delete",
               btnIcon: Icons.delete,
-               borderColor: Color(0XFF275787),
-               btnOnTap: () {},
+              borderColor: Color(0XFF275787),
+              btnOnTap: () {},
             ),
           ],
         )

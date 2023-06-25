@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/myrides/bloc/myrides_bloc.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/myrides/canceled_ride_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/myrides/complet_ride_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/myrides/upcoming_ride_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/droop_down_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/my_ride_tab_widget.dart';
-
+import 'package:ayyah_ride_driver/features/home/myrides/bloc/myrides_bloc.dart';
+import 'package:ayyah_ride_driver/features/home/myrides/canceled_ride_screen.dart';
+import 'package:ayyah_ride_driver/features/home/myrides/complet_ride_screen.dart';
+import 'package:ayyah_ride_driver/features/home/myrides/upcoming_ride_screen.dart';
+import 'package:ayyah_ride_driver/widgets/droop_down_widget.dart';
+import 'package:ayyah_ride_driver/widgets/my_ride_tab_widget.dart';
 
 class MyRidesScreen extends StatelessWidget {
   static const String routeName = "myride";

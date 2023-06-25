@@ -1,19 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/earnings/earnings_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/help_support/help_support_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/home_nav_drawer.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/myrides/my_rides_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/notification/notification_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/profile/profile_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/rating_and_review/rating_and_review_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/refer_driver/refer_driver_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/setting/setting_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/viit_rewards/viit_rewards_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/prefill_home/prefill_home_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/viit_appbar.dart';
-
+import 'package:ayyah_ride_driver/features/home/earnings/earnings_screen.dart';
+import 'package:ayyah_ride_driver/features/home/help_support/help_support_screen.dart';
+import 'package:ayyah_ride_driver/features/home/home_nav_drawer.dart';
+import 'package:ayyah_ride_driver/features/home/myrides/my_rides_screen.dart';
+import 'package:ayyah_ride_driver/features/home/notification/notification_screen.dart';
+import 'package:ayyah_ride_driver/features/home/profile/profile_screen.dart';
+import 'package:ayyah_ride_driver/features/home/rating_and_review/rating_and_review_screen.dart';
+import 'package:ayyah_ride_driver/features/home/refer_driver/refer_driver_screen.dart';
+import 'package:ayyah_ride_driver/features/home/setting/setting_screen.dart';
+import 'package:ayyah_ride_driver/features/home/viit_rewards/viit_rewards_screen.dart';
+import 'package:ayyah_ride_driver/features/prefill_home/prefill_home_screen.dart';
+import 'package:ayyah_ride_driver/widgets/viit_appbar.dart';
 
 import 'bloc/bloc.dart';
 

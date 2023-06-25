@@ -1,10 +1,9 @@
 import 'package:data_connection_checker/data_connection_checker.dart';
-import 'package:flutter_taxi_booking_driver_app/repo/api_provider.dart';
-import 'package:flutter_taxi_booking_driver_app/repo/network_info.dart';
-import 'package:flutter_taxi_booking_driver_app/repo/pref_manager.dart';
-import 'package:flutter_taxi_booking_driver_app/repo/repo_provider.dart';
+import 'package:ayyah_ride_driver/repo/api_provider.dart';
+import 'package:ayyah_ride_driver/repo/network_info.dart';
+import 'package:ayyah_ride_driver/repo/pref_manager.dart';
+import 'package:ayyah_ride_driver/repo/repo_provider.dart';
 import 'package:get_it/get_it.dart';
-
 
 Future<void> initDependencies() async {
   print("initDependencies()");

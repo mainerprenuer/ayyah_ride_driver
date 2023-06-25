@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-import 'package:flutter_taxi_booking_driver_app/common/viiticons_icons.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/fab_button.dart';
-
+import 'package:ayyah_ride_driver/common/my_colors.dart';
+import 'package:ayyah_ride_driver/common/viiticons_icons.dart';
+import 'package:ayyah_ride_driver/widgets/fab_button.dart';
 
 class SquareAddLocationTextFieldWidget extends StatelessWidget {
   final double myHeight;
@@ -44,13 +43,18 @@ class SquareAddLocationTextFieldWidget extends StatelessWidget {
             decoration: BoxDecoration(
               color: Color(0XFFF6F7FB),
               borderRadius: BorderRadius.circular(10.0),
-              border: Border.all(color: Color(0XFFE6E1E1),width: 1,),
+              border: Border.all(
+                color: Color(0XFFE6E1E1),
+                width: 1,
+              ),
             ),
             child: Opacity(
               opacity: 0.64,
               child: Center(
                 child: Padding(
-                  padding: const EdgeInsets.only(left: 2,),
+                  padding: const EdgeInsets.only(
+                    left: 2,
+                  ),
                   child: TextField(
                     style: Theme.of(context).textTheme.caption.copyWith(
                           fontWeight: FontWeight.w600,
@@ -85,16 +89,16 @@ class SquareAddLocationTextFieldWidget extends StatelessWidget {
           Align(
             alignment: Alignment.centerRight,
             child: Padding(
-              padding: const EdgeInsets.only(top: 6,right: 8),
+              padding: const EdgeInsets.only(top: 6, right: 8),
               child: FABButton(
-                myHeight: 45,
-                myWidth: 45,
-                bgColor: kAccentColor,
-                icon: Icon(
-                  Viiticons.plus,
-                  color: Colors.white,
-                ),
-                onTap: onFabTap
+                  myHeight: 45,
+                  myWidth: 45,
+                  bgColor: kAccentColor,
+                  icon: Icon(
+                    Viiticons.plus,
+                    color: Colors.white,
+                  ),
+                  onTap: onFabTap
                   /*Navigator.of(context).pushNamed(
                     LocationFromMapScreen.routeName,
                     arguments: LocationFromMapScreenArguments(
@@ -103,7 +107,7 @@ class SquareAddLocationTextFieldWidget extends StatelessWidget {
                     ),
                   );
                 },*/
-              ),
+                  ),
             ),
           )
         ],

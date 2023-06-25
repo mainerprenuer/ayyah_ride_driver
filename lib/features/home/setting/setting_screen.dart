@@ -1,16 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/setting/app_setting/app_setting_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/setting/emergency_contacts/emergency_contact_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/setting/my_docunment/my_docunment_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/setting/my_vehicles/my_vehicles_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/setting/navigaion_setting/navigation_setting_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/setting/privacy_setting/privacy_setting_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/loginsignup/login/login_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/flat_button_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/help_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/user_profile_widget.dart';
-
+import 'package:ayyah_ride_driver/features/home/setting/app_setting/app_setting_screen.dart';
+import 'package:ayyah_ride_driver/features/home/setting/emergency_contacts/emergency_contact_screen.dart';
+import 'package:ayyah_ride_driver/features/home/setting/my_docunment/my_docunment_screen.dart';
+import 'package:ayyah_ride_driver/features/home/setting/my_vehicles/my_vehicles_screen.dart';
+import 'package:ayyah_ride_driver/features/home/setting/navigaion_setting/navigation_setting_screen.dart';
+import 'package:ayyah_ride_driver/features/home/setting/privacy_setting/privacy_setting_screen.dart';
+import 'package:ayyah_ride_driver/features/loginsignup/login/login_screen.dart';
+import 'package:ayyah_ride_driver/widgets/flat_button_widget.dart';
+import 'package:ayyah_ride_driver/widgets/help_widget.dart';
+import 'package:ayyah_ride_driver/widgets/user_profile_widget.dart';
 
 class SettingScreen extends StatelessWidget {
   @override
@@ -151,7 +150,7 @@ class _SettingState extends State<Setting> {
         Padding(
             padding: const EdgeInsets.only(left: 20, right: 20),
             child: GestureDetector(
-              onTap: (){
+              onTap: () {
                 Navigator.of(context).pushNamed(
                   EmergencyContactScreen.routeName,
                 );

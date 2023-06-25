@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/border_button_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/driver_rewards_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/droop_down_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/number_of_ride_widget.dart';
+import 'package:ayyah_ride_driver/widgets/border_button_widget.dart';
+import 'package:ayyah_ride_driver/widgets/driver_rewards_widget.dart';
+import 'package:ayyah_ride_driver/widgets/droop_down_widget.dart';
+import 'package:ayyah_ride_driver/widgets/number_of_ride_widget.dart';
 
 class ViitRewardsScreen extends StatelessWidget {
   @override

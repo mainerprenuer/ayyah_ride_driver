@@ -1,8 +1,5 @@
-
-
 import 'package:dio/dio.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_const.dart';
-
+import 'package:ayyah_ride_driver/common/my_const.dart';
 
 abstract class APIProvider {
   /*Future<Either<DioError, LoginResponse>> login({
@@ -31,7 +28,7 @@ class APIProviderIml extends APIProvider {
     _dio.options.contentType = "application/x-www-form-urlencoded";
   }
 
- /* @override
+  /* @override
   Future<Either<DioError, LoginResponse>> login({
     String mobileCountryCode,
     String mobile,

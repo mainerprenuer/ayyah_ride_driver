@@ -1,4 +1,4 @@
-package com.viit.driver.flutter_taxi_booking_driver_app
+package com.viit.driver.ayyah_ride_driver
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
+import 'package:ayyah_ride_driver/common/my_colors.dart';
 
 class DatePickerContainer extends StatelessWidget {
   final date;
@@ -40,15 +40,15 @@ class DatePickerContainer extends StatelessWidget {
                   child: Text(
                     date,
                     style: Theme.of(context).textTheme.caption.copyWith(
-                      fontWeight: FontWeight.w600,
-                      fontSize: 16,
-                      color: Colors.black45,
-                    ),
+                          fontWeight: FontWeight.w600,
+                          fontSize: 16,
+                          color: Colors.black45,
+                        ),
                   ),
                 ),
                 Icon(
                   icon,
-                  color:kPrimaryColor,
+                  color: kPrimaryColor,
                   size: 21,
                 )
               ],

@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-import 'package:flutter_taxi_booking_driver_app/common/viiticons_icons.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/fab_button.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/password_textfield.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/wavy_header_widget.dart';
-
+import 'package:ayyah_ride_driver/common/my_colors.dart';
+import 'package:ayyah_ride_driver/common/viiticons_icons.dart';
+import 'package:ayyah_ride_driver/widgets/fab_button.dart';
+import 'package:ayyah_ride_driver/widgets/password_textfield.dart';
+import 'package:ayyah_ride_driver/widgets/wavy_header_widget.dart';
 
 import 'bloc/bloc.dart';
 

@@ -1,8 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-
+import 'package:ayyah_ride_driver/common/my_colors.dart';
 
 class LanguageButton extends StatelessWidget {
   final Color btnColor;

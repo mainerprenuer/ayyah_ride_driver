@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/refer_driver/how_work_details_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/features/home/refer_driver/your_referral_driver_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/border_button_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/flat_button_widget.dart';
+import 'package:ayyah_ride_driver/common/my_colors.dart';
+import 'package:ayyah_ride_driver/features/home/refer_driver/how_work_details_screen.dart';
+import 'package:ayyah_ride_driver/features/home/refer_driver/your_referral_driver_screen.dart';
+import 'package:ayyah_ride_driver/widgets/border_button_widget.dart';
+import 'package:ayyah_ride_driver/widgets/flat_button_widget.dart';
 import 'package:share/share.dart';
 
-
- class ReferDriverScreen extends StatelessWidget {
+class ReferDriverScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return  ReferDriver();
+    return ReferDriver();
   }
 }
 
@@ -71,33 +70,29 @@ class _FreeRidesState extends State<ReferDriver> {
           SizedBox(
             height: 15,
           ),
-
           Center(
             child: Container(
-              height:35,
-              width: 177,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(35/2),
-                color: kPrimaryColor,
-              ),
-
-              child: GestureDetector(
-                onTap: (){
-                  Navigator.of(context)
-                      .pushNamed(YourReferralDriverScreen.routeName);
-                },
-                child: Center(
-                  child:  Text(
-                    "Your Referrals",
-                    style: Theme.of(context).textTheme.caption.copyWith(
-                      fontSize: 16,
-                      color: Colors.white,
+                height: 35,
+                width: 177,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(35 / 2),
+                  color: kPrimaryColor,
+                ),
+                child: GestureDetector(
+                  onTap: () {
+                    Navigator.of(context)
+                        .pushNamed(YourReferralDriverScreen.routeName);
+                  },
+                  child: Center(
+                    child: Text(
+                      "Your Referrals",
+                      style: Theme.of(context).textTheme.caption.copyWith(
+                            fontSize: 16,
+                            color: Colors.white,
+                          ),
                     ),
                   ),
-                ),
-              )
-
-            ),
+                )),
           ),
           SizedBox(
             height: 6,

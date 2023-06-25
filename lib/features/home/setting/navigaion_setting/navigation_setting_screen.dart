@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/help_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/viit_appbar.dart';
+import 'package:ayyah_ride_driver/widgets/help_widget.dart';
+import 'package:ayyah_ride_driver/widgets/viit_appbar.dart';
 
 class NavigationSettingScreen extends StatelessWidget {
   static const String routeName = "navigationsettingscreen";
@@ -19,7 +19,7 @@ class NavigationSctting extends StatefulWidget {
 }
 
 class _State extends State<NavigationSctting> {
-  var voiceNavigation=false;
+  var voiceNavigation = false;
   var selectPreferance;
   @override
   Widget build(BuildContext context) {
@@ -35,7 +35,7 @@ class _State extends State<NavigationSctting> {
             ),
             titleWidget: ViitTitleWidget("Navigation Settings"),
           ),
-          body:  ListView(
+          body: ListView(
             children: <Widget>[
               SizedBox(
                 height: 20,
@@ -51,18 +51,15 @@ class _State extends State<NavigationSctting> {
               ),
               Container(
                 height: 4,
-                width: MediaQuery
-                    .of(context)
-                    .size
-                    .width,
+                width: MediaQuery.of(context).size.width,
                 color: Color(0xFFF1F1F1),
               ),
               SizedBox(
-                height:15,
+                height: 15,
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 20, right: 20),
-                child:    Row(
+                child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     Text(
@@ -72,37 +69,33 @@ class _State extends State<NavigationSctting> {
                           color: Color(0XFF060518),
                           fontSize: 18),
                     ),
-                    Transform.scale(scale: 1,
+                    Transform.scale(
+                        scale: 1,
                         child: CupertinoSwitch(
                           activeColor: Color(0XFF275687),
                           value: voiceNavigation,
-                          onChanged: (val){
+                          onChanged: (val) {
                             setState(() {
-                              voiceNavigation=val;
+                              voiceNavigation = val;
                             });
                           },
-                        )
-                    ),
+                        )),
                   ],
                 ),
-
               ),
               SizedBox(
-                height:15,
+                height: 15,
               ),
               Container(
                 height: 4,
-                width: MediaQuery
-                    .of(context)
-                    .size
-                    .width,
+                width: MediaQuery.of(context).size.width,
                 color: Color(0xFFF1F1F1),
               ),
               SizedBox(
                 height: 20,
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 20,right: 40),
+                padding: const EdgeInsets.only(left: 20, right: 40),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
@@ -129,16 +122,19 @@ class _State extends State<NavigationSctting> {
                             ),
                             Text(
                               "Google Map",
-                              style: Theme.of(context).textTheme.caption.copyWith(
-                                  fontWeight: FontWeight.w500,
-                                  color: Color(0XFF275787),
-                                  fontSize: 17),
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .caption
+                                  .copyWith(
+                                      fontWeight: FontWeight.w500,
+                                      color: Color(0XFF275787),
+                                      fontSize: 17),
                             ),
-
                           ],
-                        ), SizedBox(
+                        ),
+                        SizedBox(
                           width: 20,
-                        ) ,
+                        ),
                         Row(
                           children: <Widget>[
                             Radio(
@@ -153,15 +149,16 @@ class _State extends State<NavigationSctting> {
                             ),
                             Text(
                               "Waze",
-                              style: Theme.of(context).textTheme.caption.copyWith(
-                                  fontWeight: FontWeight.w500,
-                                  color: Color(0XFF275787),
-                                  fontSize: 17),
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .caption
+                                  .copyWith(
+                                      fontWeight: FontWeight.w500,
+                                      color: Color(0XFF275787),
+                                      fontSize: 17),
                             ),
-
                           ],
                         )
-
                       ],
                     ),
                     Row(
@@ -180,12 +177,14 @@ class _State extends State<NavigationSctting> {
                             ),
                             Text(
                               "Bing Maps",
-                              style: Theme.of(context).textTheme.caption.copyWith(
-                                  fontWeight: FontWeight.w500,
-                                  color: Color(0XFF275787),
-                                  fontSize: 17),
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .caption
+                                  .copyWith(
+                                      fontWeight: FontWeight.w500,
+                                      color: Color(0XFF275787),
+                                      fontSize: 17),
                             ),
-
                           ],
                         ),
                         SizedBox(
@@ -205,15 +204,16 @@ class _State extends State<NavigationSctting> {
                             ),
                             Text(
                               "Apple Map",
-                              style: Theme.of(context).textTheme.caption.copyWith(
-                                  fontWeight: FontWeight.w500,
-                                  color: Color(0XFF275787),
-                                  fontSize: 17),
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .caption
+                                  .copyWith(
+                                      fontWeight: FontWeight.w500,
+                                      color: Color(0XFF275787),
+                                      fontSize: 17),
                             ),
-
                           ],
                         )
-
                       ],
                     ),
                   ],

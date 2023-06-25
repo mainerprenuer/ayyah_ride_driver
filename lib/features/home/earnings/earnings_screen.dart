@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/border_button_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/monthly_erning_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/weekly_erining_screen.dart';
+import 'package:ayyah_ride_driver/widgets/border_button_widget.dart';
+import 'package:ayyah_ride_driver/widgets/monthly_erning_widget.dart';
+import 'package:ayyah_ride_driver/widgets/weekly_erining_screen.dart';
 
 class EarningsScreen extends StatelessWidget {
   @override

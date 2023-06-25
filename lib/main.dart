@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-import 'package:flutter_taxi_booking_driver_app/features/landing/landing_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/repo/pref_manager.dart';
+import 'package:ayyah_ride_driver/common/my_colors.dart';
+import 'package:ayyah_ride_driver/features/landing/landing_screen.dart';
+import 'package:ayyah_ride_driver/repo/pref_manager.dart';
 
 import 'injections.dart' as di;
 

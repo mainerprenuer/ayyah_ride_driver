@@ -2,15 +2,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_taxi_booking_driver_app/app_translations_delegate.dart';
-import 'package:flutter_taxi_booking_driver_app/application.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_const.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_theme.dart';
-import 'package:flutter_taxi_booking_driver_app/common/viiticons_icons.dart';
-import 'package:flutter_taxi_booking_driver_app/features/language/language_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/route_generator.dart';
-
+import 'package:ayyah_ride_driver/app_translations_delegate.dart';
+import 'package:ayyah_ride_driver/application.dart';
+import 'package:ayyah_ride_driver/common/my_colors.dart';
+import 'package:ayyah_ride_driver/common/my_const.dart';
+import 'package:ayyah_ride_driver/common/my_theme.dart';
+import 'package:ayyah_ride_driver/common/viiticons_icons.dart';
+import 'package:ayyah_ride_driver/features/language/language_screen.dart';
+import 'package:ayyah_ride_driver/route_generator.dart';
 
 import 'bloc/bloc.dart';
 

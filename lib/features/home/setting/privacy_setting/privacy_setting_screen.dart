@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/privacy_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/viit_appbar.dart';
+import 'package:ayyah_ride_driver/widgets/privacy_widget.dart';
+import 'package:ayyah_ride_driver/widgets/viit_appbar.dart';
 
 class PrivacySettingScreen extends StatelessWidget {
   static const String routeName = "privacysettingscreen";
@@ -35,7 +35,7 @@ class _PrivacySttingState extends State<PrivacyStting> {
           body: ListView(
             children: <Widget>[
               Padding(
-                padding: const EdgeInsets.only(left: 20,right: 20),
+                padding: const EdgeInsets.only(left: 20, right: 20),
                 child: Column(
                   children: <Widget>[
                     SizedBox(
@@ -44,7 +44,7 @@ class _PrivacySttingState extends State<PrivacyStting> {
                     PrivacyWidget(
                       myTitle: "Location",
                       mydeisc:
-                      "Vitt uses your device’s location services for more reliable rides.",
+                          "Vitt uses your device’s location services for more reliable rides.",
                     ),
                     SizedBox(
                       height: 10,
@@ -58,8 +58,7 @@ class _PrivacySttingState extends State<PrivacyStting> {
                     ),
                     PrivacyWidget(
                       myTitle: "Notifications ",
-                      mydeisc:
-                      "Control what messages you receive from Vitt.",
+                      mydeisc: "Control what messages you receive from Vitt.",
                     ),
                     SizedBox(
                       height: 10,
@@ -73,8 +72,7 @@ class _PrivacySttingState extends State<PrivacyStting> {
                     ),
                     PrivacyWidget(
                       myTitle: "Vitt Teen ",
-                      mydeisc:
-                      "",
+                      mydeisc: "",
                     ),
                     SizedBox(
                       height: 10,
@@ -88,13 +86,11 @@ class _PrivacySttingState extends State<PrivacyStting> {
                     ),
                     PrivacyWidget(
                       myTitle: "Vitt Access ",
-                      mydeisc:
-                      "",
+                      mydeisc: "",
                     ),
                   ],
                 ),
               ),
-
             ],
           ),
         ),
@@ -102,4 +98,3 @@ class _PrivacySttingState extends State<PrivacyStting> {
     );
   }
 }
-

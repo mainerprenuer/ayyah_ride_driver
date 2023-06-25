@@ -1,10 +1,9 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:flutter_taxi_booking_driver_app/repo/repo_provider.dart';
+import 'package:ayyah_ride_driver/repo/repo_provider.dart';
 import 'package:get_it/get_it.dart';
 import 'package:permission_handler/permission_handler.dart';
-
 
 import './bloc.dart';
 

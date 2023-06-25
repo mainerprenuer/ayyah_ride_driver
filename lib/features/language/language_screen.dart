@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_taxi_booking_driver_app/application.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-import 'package:flutter_taxi_booking_driver_app/features/language/bloc/language_bloc.dart';
-import 'package:flutter_taxi_booking_driver_app/features/language/bloc/language_event.dart';
-import 'package:flutter_taxi_booking_driver_app/features/language/bloc/language_state.dart';
-import 'package:flutter_taxi_booking_driver_app/features/onboard/onboard_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/language_button.dart';
-
+import 'package:ayyah_ride_driver/application.dart';
+import 'package:ayyah_ride_driver/common/my_colors.dart';
+import 'package:ayyah_ride_driver/features/language/bloc/language_bloc.dart';
+import 'package:ayyah_ride_driver/features/language/bloc/language_event.dart';
+import 'package:ayyah_ride_driver/features/language/bloc/language_state.dart';
+import 'package:ayyah_ride_driver/features/onboard/onboard_screen.dart';
+import 'package:ayyah_ride_driver/widgets/language_button.dart';
 
 class LanguageScreen extends StatelessWidget {
   static const String routeName = "/language";

@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-import 'package:flutter_taxi_booking_driver_app/common/viiticons_icons.dart';
-import 'package:flutter_taxi_booking_driver_app/features/loginsignup/login/login_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/fab_button.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/wave_animation_widget.dart';
-
+import 'package:ayyah_ride_driver/common/my_colors.dart';
+import 'package:ayyah_ride_driver/common/viiticons_icons.dart';
+import 'package:ayyah_ride_driver/features/loginsignup/login/login_screen.dart';
+import 'package:ayyah_ride_driver/widgets/fab_button.dart';
+import 'package:ayyah_ride_driver/widgets/wave_animation_widget.dart';
 
 class OnboardWidget extends StatefulWidget {
   var images = [""];

@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/notifications_widget.dart';
-
+import 'package:ayyah_ride_driver/widgets/notifications_widget.dart';
 
 class NotificationScreen extends StatelessWidget {
   @override
@@ -27,7 +26,7 @@ class _NotificatoinState extends State<Notificatoin> {
             headerTxt: "Account and ride updates ",
             descriptionTxt:
                 "Includes ride status notifications and updates related to riding on your account.",
-            isLastIndex: index == itemLength-1 ? true :false,
+            isLastIndex: index == itemLength - 1 ? true : false,
           );
         });
   }

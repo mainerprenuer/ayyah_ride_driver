@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/my_vehicle_item_layout_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/viit_appbar.dart';
+import 'package:ayyah_ride_driver/widgets/my_vehicle_item_layout_widget.dart';
+import 'package:ayyah_ride_driver/widgets/viit_appbar.dart';
 
- class MyVehiclesScreen extends StatelessWidget {
-   static const String routeName = "myvehiclesscreen";
+class MyVehiclesScreen extends StatelessWidget {
+  static const String routeName = "myvehiclesscreen";
 
-   @override
+  @override
   Widget build(BuildContext context) {
     return MyVehicles();
   }
@@ -57,9 +57,9 @@ class _MyVehiclesState extends State<MyVehicles> {
                       index == 2
                           ? SizedBox()
                           : Divider(
-                        height: 4,
-                        color: Color(0XFFE8E4E4),
-                      ),
+                              height: 4,
+                              color: Color(0XFFE8E4E4),
+                            ),
                     ],
                   );
                 }),
@@ -67,7 +67,5 @@ class _MyVehiclesState extends State<MyVehicles> {
         ),
       ),
     );
-
   }
 }
-

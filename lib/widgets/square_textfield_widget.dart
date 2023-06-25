@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-
+import 'package:ayyah_ride_driver/common/my_colors.dart';
 
 class SquareTextFieldWidget extends StatelessWidget {
   final double myHeight;

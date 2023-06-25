@@ -1,9 +1,7 @@
 import 'dart:async';
 
-
-
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/application.dart';
+import 'package:ayyah_ride_driver/application.dart';
 
 import './app_translations.dart';
 

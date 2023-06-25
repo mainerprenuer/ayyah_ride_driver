@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.viit.driver.flutter_taxi_booking_driver_app">
+    package="com.viit.driver.ayyah_ride_driver">
    <application
-        android:label="flutter_taxi_booking_driver_app"
+        android:label="ayyah_ride_driver"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

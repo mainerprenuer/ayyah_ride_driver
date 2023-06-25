@@ -1,10 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/average_rating_card_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/driver_rating_message_itemlayout_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/driver_rating_type_item_layout_widget.dart';
-
-
+import 'package:ayyah_ride_driver/widgets/average_rating_card_widget.dart';
+import 'package:ayyah_ride_driver/widgets/driver_rating_message_itemlayout_widget.dart';
+import 'package:ayyah_ride_driver/widgets/driver_rating_type_item_layout_widget.dart';
 
 class RattingAndReviewScreen extends StatelessWidget {
   @override
@@ -189,4 +187,3 @@ class _RattingAndReviewState extends State<RattingAndReview> {
     );
   }
 }
-

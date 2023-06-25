@@ -3,11 +3,10 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-import 'package:flutter_taxi_booking_driver_app/features/loginsignup/login/login_screen.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/onboard_widget.dart';
+import 'package:ayyah_ride_driver/common/my_colors.dart';
+import 'package:ayyah_ride_driver/features/loginsignup/login/login_screen.dart';
+import 'package:ayyah_ride_driver/widgets/onboard_widget.dart';
 import 'package:get_it/get_it.dart';
-
 
 import 'bloc/bloc.dart';
 
@@ -87,11 +86,7 @@ class _OnBoardState extends State<OnBoard> {
                       "assets/onboarding_1.png",
                       "assets/onboarding_2.png",
                     ],
-                    titles: [
-                      "Accept a Job",
-                      "Tracking Realtime",
-                      "Earn Money"
-                    ],
+                    titles: ["Accept a Job", "Tracking Realtime", "Earn Money"],
                     subtitles: [
                       "Work with your convenience, take the job whenever you need it.",
                       "Know where your customer is currently located with the real-time tracking.",

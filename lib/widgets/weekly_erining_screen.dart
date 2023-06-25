@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/earning_bar_chart_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/erning_amount_widget.dart';
-
+import 'package:ayyah_ride_driver/widgets/earning_bar_chart_widget.dart';
+import 'package:ayyah_ride_driver/widgets/erning_amount_widget.dart';
 
 class WeeklyEriningScreen extends StatefulWidget {
   @override

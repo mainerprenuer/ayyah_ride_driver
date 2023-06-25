@@ -1,17 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-
+import 'package:ayyah_ride_driver/common/my_colors.dart';
 
 class PrivacyWidget extends StatelessWidget {
   final String myTitle;
   final String mydeisc;
-    PrivacyWidget({
-      Key key,
+  PrivacyWidget({
+    Key key,
     this.myTitle,
     this.mydeisc,
-    })  : super(key: key);
+  }) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -33,24 +32,25 @@ class PrivacyWidget extends StatelessWidget {
                 height: 3,
               ),
               Container(
-                width: MediaQuery.of(context).size.width/1.8,
-                child:Text(
+                width: MediaQuery.of(context).size.width / 1.8,
+                child: Text(
                   "$mydeisc",
-                  style: Theme.of(context).textTheme.caption.copyWith(
-                      color: kTextLoginfaceid,
-                      fontSize: 15),
+                  style: Theme.of(context)
+                      .textTheme
+                      .caption
+                      .copyWith(color: kTextLoginfaceid, fontSize: 15),
                 ),
               )
-
             ],
           ),
-          Transform.scale(scale: 1,
-              child: CupertinoSwitch(
-                activeColor: Color(0XFF275687),
-                value: false,
-               ),
+          Transform.scale(
+            scale: 1,
+            child: CupertinoSwitch(
+              activeColor: Color(0XFF275687),
+              value: false,
+            ),
           ),
-         ],
+        ],
       ),
     );
   }

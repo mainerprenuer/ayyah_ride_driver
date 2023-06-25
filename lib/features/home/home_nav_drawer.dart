@@ -1,9 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-import 'package:flutter_taxi_booking_driver_app/common/viiticons_icons.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/nav_menu_item.dart';
-
+import 'package:ayyah_ride_driver/common/my_colors.dart';
+import 'package:ayyah_ride_driver/common/viiticons_icons.dart';
+import 'package:ayyah_ride_driver/widgets/nav_menu_item.dart';
 
 class MyNavDrawer extends StatelessWidget {
   final BuildContext context;

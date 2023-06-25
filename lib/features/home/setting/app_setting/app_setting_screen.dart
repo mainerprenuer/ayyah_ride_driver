@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/help_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/select_app_mode_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/viit_appbar.dart';
+import 'package:ayyah_ride_driver/widgets/help_widget.dart';
+import 'package:ayyah_ride_driver/widgets/select_app_mode_widget.dart';
+import 'package:ayyah_ride_driver/widgets/viit_appbar.dart';
 
 class AppSettingScreen extends StatelessWidget {
   static const String routeName = "appsettingscreen";
@@ -20,15 +20,14 @@ class AppSettinng extends StatefulWidget {
 
 class _AppSettinngState extends State<AppSettinng> {
   var selectIndex;
-  var automatiocSwitch =false;
+  var automatiocSwitch = false;
   var selectCurrency;
   var selectLanguage;
   @override
   Widget build(BuildContext context) {
     return Container(
       child: SafeArea(
-        child:
-        Scaffold(
+        child: Scaffold(
           appBar: ViitAppBar(
             onLeadingPressed: () {
               Navigator.of(context).pop();
@@ -49,11 +48,10 @@ class _AppSettinngState extends State<AppSettinng> {
                   SelectAppModeWidget(
                     backgroundColor: Colors.white,
                     modeIndex: 1,
-                    myOnTap: (val){
+                    myOnTap: (val) {
                       setState(() {
                         selectIndex = val;
                       });
-
                     },
                     selectedMode: selectIndex,
                     modeName: "Light",
@@ -64,7 +62,7 @@ class _AppSettinngState extends State<AppSettinng> {
                   SelectAppModeWidget(
                     backgroundColor: Color(0XFF275787),
                     modeIndex: 2,
-                    myOnTap: (val){
+                    myOnTap: (val) {
                       setState(() {
                         selectIndex = val;
                       });
@@ -79,18 +77,15 @@ class _AppSettinngState extends State<AppSettinng> {
               ),
               Container(
                 height: 4,
-                width: MediaQuery
-                    .of(context)
-                    .size
-                    .width,
+                width: MediaQuery.of(context).size.width,
                 color: Color(0xFFEAEAEB),
               ),
               SizedBox(
                 height: 18,
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 20,right: 20),
-                child:     Row(
+                padding: const EdgeInsets.only(left: 20, right: 20),
+                child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     Text(
@@ -100,31 +95,26 @@ class _AppSettinngState extends State<AppSettinng> {
                           color: Color(0XFF060518),
                           fontSize: 16),
                     ),
-                    Transform.scale(scale: 1,
-                        child: 
-                        CupertinoSwitch(
+                    Transform.scale(
+                        scale: 1,
+                        child: CupertinoSwitch(
                           activeColor: Color(0XFF275687),
                           value: automatiocSwitch,
-                          onChanged: (val){
+                          onChanged: (val) {
                             setState(() {
-                              automatiocSwitch=val;
+                              automatiocSwitch = val;
                             });
                           },
-                        )
-                    ),
+                        )),
                   ],
                 ),
               ),
-
               SizedBox(
                 height: 18,
               ),
               Container(
                 height: 4,
-                width: MediaQuery
-                    .of(context)
-                    .size
-                    .width,
+                width: MediaQuery.of(context).size.width,
                 color: Color(0xFFEAEAEB),
               ),
               SizedBox(
@@ -135,11 +125,13 @@ class _AppSettinngState extends State<AppSettinng> {
                 child: Text(
                   "Currency",
                   style: Theme.of(context).textTheme.caption.copyWith(
-                      fontWeight: FontWeight.w600, color: Colors.black, fontSize: 20),
+                      fontWeight: FontWeight.w600,
+                      color: Colors.black,
+                      fontSize: 20),
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 10,top: 10),
+                padding: const EdgeInsets.only(left: 10, top: 10),
                 child: Row(
                   children: <Widget>[
                     Radio(
@@ -212,11 +204,13 @@ class _AppSettinngState extends State<AppSettinng> {
                 child: Text(
                   "Language",
                   style: Theme.of(context).textTheme.caption.copyWith(
-                      fontWeight: FontWeight.w600, color: Colors.black, fontSize: 20),
+                      fontWeight: FontWeight.w600,
+                      color: Colors.black,
+                      fontSize: 20),
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 10,top: 10),
+                padding: const EdgeInsets.only(left: 10, top: 10),
                 child: Row(
                   children: <Widget>[
                     Radio(
@@ -283,4 +277,3 @@ class _AppSettinngState extends State<AppSettinng> {
     );
   }
 }
-

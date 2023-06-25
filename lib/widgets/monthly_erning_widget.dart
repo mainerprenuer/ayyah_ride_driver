@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/erning_amount_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/monthly_bar_chart_widget.dart';
-
+import 'package:ayyah_ride_driver/widgets/erning_amount_widget.dart';
+import 'package:ayyah_ride_driver/widgets/monthly_bar_chart_widget.dart';
 
 class MonthlyErningWidget extends StatefulWidget {
   @override

@@ -1,6 +1,4 @@
-
-
-import 'package:flutter_taxi_booking_driver_app/common/model/common_response.dart';
+import 'package:ayyah_ride_driver/common/model/common_response.dart';
 
 class LoginResponse extends CommonResponse {
   Payload payload;

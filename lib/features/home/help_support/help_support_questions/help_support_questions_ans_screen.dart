@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/viit_appbar.dart';
-
+import 'package:ayyah_ride_driver/common/my_colors.dart';
+import 'package:ayyah_ride_driver/widgets/viit_appbar.dart';
 
 class HelpSupportQuestionAnswerScreen extends StatelessWidget {
   static const String routeName = "helpsupportquestionanswer";

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/rating_line_widget.dart';
-
+import 'package:ayyah_ride_driver/widgets/rating_line_widget.dart';
 
 class AverageRatingCardWidget extends StatefulWidget {
   @override

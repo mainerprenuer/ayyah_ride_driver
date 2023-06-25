@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/repo/api_provider.dart';
-import 'package:flutter_taxi_booking_driver_app/repo/network_info.dart';
-
+import 'package:ayyah_ride_driver/repo/api_provider.dart';
+import 'package:ayyah_ride_driver/repo/network_info.dart';
 
 class RepoProvider {
   APIProviderIml apiProvider;

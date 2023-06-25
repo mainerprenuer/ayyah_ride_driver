@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/rounded_chat_widget.dart';
-
+import 'package:ayyah_ride_driver/widgets/rounded_chat_widget.dart';
 
 class DriverRatingMessageItemLayoutWidget extends StatelessWidget {
   final String riderNoteTxt;
@@ -10,7 +9,7 @@ class DriverRatingMessageItemLayoutWidget extends StatelessWidget {
     Key key,
     @required this.riderNoteTxt,
     @required this.feedbackTxt,
-  })  : super(key: key);
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

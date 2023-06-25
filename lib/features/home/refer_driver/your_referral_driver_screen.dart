@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/referral_driver_list_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/viit_appbar.dart';
-
+import 'package:ayyah_ride_driver/widgets/referral_driver_list_widget.dart';
+import 'package:ayyah_ride_driver/widgets/viit_appbar.dart';
 
 class YourReferralDriverScreen extends StatelessWidget {
   static const String routeName = "yourreferraldriver";
 
-
-@override
+  @override
   Widget build(BuildContext context) {
     return YourReferDriver();
   }
@@ -21,7 +19,7 @@ class YourReferDriver extends StatefulWidget {
 class _ReferDriverState extends State<YourReferDriver> {
   @override
   Widget build(BuildContext context) {
-    return  Container(
+    return Container(
       color: Colors.white,
       child: SafeArea(
         child: Scaffold(
@@ -34,7 +32,7 @@ class _ReferDriverState extends State<YourReferDriver> {
             ),
             titleWidget: ViitTitleWidget("Refer a Driver"),
           ),
-          body:ListView(
+          body: ListView(
             children: <Widget>[
               SizedBox(
                 height: 4,
@@ -93,10 +91,9 @@ class _ReferDriverState extends State<YourReferDriver> {
                     }),
               )
             ],
-          ) ,
+          ),
         ),
       ),
     );
-
   }
 }

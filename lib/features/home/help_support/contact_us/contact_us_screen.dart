@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/flat_button_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/multiline_textfield_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/viit_appbar.dart';
-
+import 'package:ayyah_ride_driver/common/my_colors.dart';
+import 'package:ayyah_ride_driver/widgets/flat_button_widget.dart';
+import 'package:ayyah_ride_driver/widgets/multiline_textfield_widget.dart';
+import 'package:ayyah_ride_driver/widgets/viit_appbar.dart';
 
 class ContactUsScreen extends StatelessWidget {
   static const String routeName = "contactusscreen";
@@ -66,7 +65,10 @@ class _ContactUsState extends State<ContactUs> {
                     height: 8,
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(left: 8, right: 8,),
+                    padding: const EdgeInsets.only(
+                      left: 8,
+                      right: 8,
+                    ),
                     child: Row(
                       children: <Widget>[
                         Expanded(

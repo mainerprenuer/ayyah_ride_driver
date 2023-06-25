@@ -1,11 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_booking_driver_app/common/my_colors.dart';
-import 'package:flutter_taxi_booking_driver_app/common/viiticons_icons.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/flat_button_widget.dart';
-import 'package:flutter_taxi_booking_driver_app/widgets/viit_appbar.dart';
-
-
+import 'package:ayyah_ride_driver/common/my_colors.dart';
+import 'package:ayyah_ride_driver/common/viiticons_icons.dart';
+import 'package:ayyah_ride_driver/widgets/flat_button_widget.dart';
+import 'package:ayyah_ride_driver/widgets/viit_appbar.dart';
 
 class EmergencyContactScreen extends StatefulWidget {
   static const String routeName = "emergencycontact";
@@ -162,11 +160,13 @@ class ContactsWidget extends StatelessWidget {
               ),
             ],
           ),
-          isDeleteIcon ? Icon(
-            CupertinoIcons.delete,
-            color: Colors.grey,
-            size: 25,
-          ):SizedBox(),
+          isDeleteIcon
+              ? Icon(
+                  CupertinoIcons.delete,
+                  color: Colors.grey,
+                  size: 25,
+                )
+              : SizedBox(),
         ],
       ),
     );

@@ -120,7 +120,7 @@ class ViitTitleWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       title,
-      style: Theme.of(context).textTheme.title.copyWith(
+      style: Theme.of(context).textTheme.headline6.copyWith(
             color: Colors.white,
             fontSize: 22,
           ),

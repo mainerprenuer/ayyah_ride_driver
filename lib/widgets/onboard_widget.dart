@@ -142,7 +142,7 @@ class _OnboardWidgetState extends State<OnboardWidget> {
                           Text(
                             widget.titles[index],
                             style:
-                                Theme.of(context).textTheme.display1.copyWith(
+                                Theme.of(context).textTheme.headline4.copyWith(
                                       color: Colors.white,
                                       fontSize: 32,
                                       fontWeight: FontWeight.w500,
@@ -157,14 +157,16 @@ class _OnboardWidgetState extends State<OnboardWidget> {
                             opacity: 0.8,
                             child: Text(
                               widget.subtitles[index],
-                              style:
-                                  Theme.of(context).textTheme.headline.copyWith(
-                                        color: Colors.white,
-                                        fontSize: 18,
-                                        letterSpacing: 1.3,
-                                        fontWeight: FontWeight.normal,
-                                        height: 1.3,
-                                      ),
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headline4
+                                  .copyWith(
+                                    color: Colors.white,
+                                    fontSize: 18,
+                                    letterSpacing: 1.3,
+                                    fontWeight: FontWeight.normal,
+                                    height: 1.3,
+                                  ),
                             ),
                           )
                         ],
@@ -189,7 +191,7 @@ class _OnboardWidgetState extends State<OnboardWidget> {
                       onTap: widget.myOnSkipPressed,
                       child: Text(
                         "Skip",
-                        style: Theme.of(context).textTheme.title.copyWith(
+                        style: Theme.of(context).textTheme.headline6.copyWith(
                               color: kAccentColor,
                             ),
                       ),

@@ -26,12 +26,7 @@ class LanguageButton extends StatelessWidget {
         Container(
           width: 220,
           height: 49,
-          child: FlatButton(
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(24.0),
-              side: BorderSide(color: Colors.white),
-            ),
-            color: btnColor,
+          child: TextButton(
             onPressed: btnOnTap,
             child: Padding(
               padding: const EdgeInsets.only(

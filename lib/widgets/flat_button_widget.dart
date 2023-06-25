@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/material.dart';
 
 class FlatButtonWidget extends StatelessWidget {
@@ -18,11 +20,7 @@ class FlatButtonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: height,
-      child: FlatButton(
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(28.0),
-        ),
-        color: btnColor,
+      child: TextButton(
         onPressed: btnOnTap,
         child: Padding(
           padding: const EdgeInsets.symmetric(

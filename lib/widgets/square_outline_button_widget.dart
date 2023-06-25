@@ -20,7 +20,7 @@ class SqaureOutlineButtonWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return OutlineButton(
+    return OutlinedButton(
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         children: <Widget>[
@@ -44,12 +44,12 @@ class SqaureOutlineButtonWidget extends StatelessWidget {
         ],
       ),
       onPressed: btnOnTap,
-      shape: StadiumBorder(),
-      borderSide: BorderSide(
-        color: borderColor,
-        style: BorderStyle.solid,
-        width: 1,
-      ),
+      // shape: StadiumBorder(),
+      // borderSide: BorderSide(
+      //   color: borderColor,
+      //   style: BorderStyle.solid,
+      //   width: 1,
+      // ),
     );
   }
 }

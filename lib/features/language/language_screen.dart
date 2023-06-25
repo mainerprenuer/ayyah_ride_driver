@@ -88,7 +88,7 @@ class _LanguageState extends State<Language> {
               ),
               Text(
                 "Select Language",
-                style: Theme.of(context).textTheme.headline.copyWith(
+                style: Theme.of(context).textTheme.headline1.copyWith(
                       color: Colors.white,
                     ),
               ),
@@ -109,7 +109,7 @@ class _LanguageState extends State<Language> {
                 height: 16,
               ),
               LanguageButton(
-                btnTxt: "French",
+                btnTxt: "Hausa",
                 btnOnTap: () {
                   application.onLocaleChanged(Locale("fr", "French"));
                   languageBloc.add(SelectLanEvent("fr", "French"));

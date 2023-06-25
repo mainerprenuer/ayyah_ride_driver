@@ -176,7 +176,7 @@ class MyNavDrawer extends StatelessWidget {
             ),
             Text(
               "Drive with Viit",
-              style: Theme.of(context).textTheme.subtitle.copyWith(
+              style: Theme.of(context).textTheme.subtitle1.copyWith(
                     color: Colors.white,
                     fontSize: 16,
                   ),
@@ -209,7 +209,7 @@ class MyNavDrawer extends StatelessWidget {
               ),
               title: Text(
                 "Melissa Brunt",
-                style: Theme.of(context).textTheme.title.copyWith(
+                style: Theme.of(context).textTheme.subtitle1.copyWith(
                       fontSize: 18,
                       color: Colors.white,
                     ),
@@ -241,7 +241,7 @@ class MyNavDrawer extends StatelessWidget {
                       "4.3",
                       style: Theme.of(context)
                           .textTheme
-                          .subtitle
+                          .subtitle1
                           .copyWith(color: Colors.white),
                     ),
                   ],

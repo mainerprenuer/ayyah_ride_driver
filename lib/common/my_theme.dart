@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:ayyah_ride_driver/common/my_colors.dart';
 
@@ -22,17 +24,17 @@ get kAppThemeData => ThemeData(
       iconTheme: IconThemeData(color: kBlack),
       fontFamily: "GT-Eesti",
       textTheme: TextTheme(
-        headline: TextStyle(
+        headline1: TextStyle(
           color: kBlack,
         ),
-        title: TextStyle(
-          fontStyle: FontStyle.normal,
-          color: kBlack,
-        ),
-        body1: TextStyle(
-          color: kBlack,
-        ),
-        subtitle: TextStyle(
+        // title: TextStyle(
+        //   fontStyle: FontStyle.normal,
+        //   color: kBlack,
+        // ),
+        // body1: TextStyle(
+        //   color: kBlack,
+        // ),
+        subtitle1: TextStyle(
           color: kBlack,
         ),
       ),

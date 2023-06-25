@@ -1,3 +1,5 @@
+// ignore_for_file: missing_required_param
+
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:ayyah_ride_driver/widgets/square_outline_button_widget.dart';

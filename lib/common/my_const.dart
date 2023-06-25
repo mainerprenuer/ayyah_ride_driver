@@ -1,4 +1,4 @@
-const String kAppName = "Viit Customer";
+const String kAppName = "Ayyah Customer";
 const String kAPIBaseURL = "http://api.xlcabking.softclutch.com/api";
 
 const String kLoremText =

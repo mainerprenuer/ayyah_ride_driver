@@ -99,7 +99,7 @@ class _ForgotState extends State<Forgot> {
             padding: const EdgeInsets.only(left: 46, right: 46),
             child: Text(
               "Forgot Password",
-              style: Theme.of(context).textTheme.headline.copyWith(
+              style: Theme.of(context).textTheme.headline1.copyWith(
                     color: kLoginBlack,
                     fontSize: 20,
                   ),
@@ -151,7 +151,7 @@ class _ForgotState extends State<Forgot> {
                 child: Text(
                   "Back to Sign In",
                   textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.subhead.copyWith(
+                  style: Theme.of(context).textTheme.subtitle1.copyWith(
                         color: kAccentColor,
                         fontSize: 16,
                       ),

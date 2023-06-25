@@ -124,7 +124,7 @@ class _LoginState extends State<Login> {
             padding: const EdgeInsets.only(left: 46, right: 46),
             child: Text(
               "Sign In",
-              style: Theme.of(context).textTheme.headline.copyWith(
+              style: Theme.of(context).textTheme.headline1.copyWith(
                     color: kLoginBlack,
                     fontSize: 20,
                   ),
@@ -205,16 +205,16 @@ class _LoginState extends State<Login> {
                           SubmitLoginEvent("", ""),
                         );
                       } else {
-                        Scaffold.of(paramContext).showSnackBar(
+                        ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
                             content: Text("Please type password..."),
                           ),
                         );
                       }
                     } else {
-                      Scaffold.of(paramContext).showSnackBar(
+                      ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
-                          content: Text("Pleas type mobile no..."),
+                          content: Text("Please type mobile no..."),
                         ),
                       );
                     }
@@ -262,7 +262,7 @@ class _LoginState extends State<Login> {
                       color: kLoginBlack,*/
                   TextSpan(
                     text: "Don't have an account? ",
-                    style: Theme.of(context).textTheme.subhead.copyWith(
+                    style: Theme.of(context).textTheme.subtitle1.copyWith(
                           color: kLoginBlack,
                           fontSize: 17,
                           letterSpacing: 0.18,
@@ -270,7 +270,7 @@ class _LoginState extends State<Login> {
                   ),
                   TextSpan(
                     text: "Sign Up",
-                    style: Theme.of(context).textTheme.subhead.copyWith(
+                    style: Theme.of(context).textTheme.subtitle1.copyWith(
                           color: kAccentColor,
                           fontSize: 18,
                         ),

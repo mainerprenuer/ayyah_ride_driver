@@ -50,7 +50,7 @@ class NavMenuItem extends StatelessWidget {
               padding: const EdgeInsets.only(left: 12),
               child: Text(
                 title,
-                style: Theme.of(context).textTheme.title.copyWith(
+                style: Theme.of(context).textTheme.headline6.copyWith(
                       color:
                           navDecorationType == NavItemDecorationType.HIGHLIGHTED
                               ? Colors.white
